@@ -1,0 +1,5 @@
+command for creating n                         
+git checkout -b <branchname>
+npm init -y
+npm install express
+npm install nodemon
