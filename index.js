@@ -1,10 +1,10 @@
 // const express = require('express') old version
 import express from 'express';
-const app = express()
+const app = express();
 const port = 3400
 
 app.get('/student/all', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World!');
 });
 app.post('/student/create',(req,res)=>{
     res.send("create student");
